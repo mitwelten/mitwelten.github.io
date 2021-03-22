@@ -1,5 +1,5 @@
 # Mitwelten.org Github.io Page
-Work in progress. Contact [thomas.amberg@fhnw.ch](mailto:thomas.amberg@fhnw.ch)
+Work in progress. Questions? Contact [mitwelten.technik@fhnw.ch](mailto:mitwelten.technik@fhnw.ch)
 
 ## Setup
 ### Gandi
