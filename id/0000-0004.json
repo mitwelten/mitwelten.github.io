@@ -1,0 +1,9 @@
+{
+  "id": "0000-0004"
+  "type": "PhotoLogger"
+  "base": "OpenMVH7Plus"
+  "batt": "6600 mAh"
+  "conn": "None"
+  "hw-v": "v0.0.0"
+  "fw-v": "v0.0.0"
+}
