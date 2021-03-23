@@ -1,6 +1,6 @@
 {
   "id": "0000-0003"
-  "type": "AudioLogger"
+  "type": "Audio"
   "base": "AudioMoth"
   "batt": "3 * AA"
   "conn": "None"
