@@ -1,0 +1,97 @@
+<!-- https://fhnw.mit-license.org/ -->
+<!-- Based on https://github.com/rsalzer/leafletswisstopo licensed under MIT license -->
+<!-- Based on https://github.com/windycom/leaflet-kml licensed under MIT license -->
+<html>
+<head>
+	<meta charset=utf-8 />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Mitwelten.org - Leaflet PoC</title>
+    <!-- Load Leaflet from CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet-src.js"></script>
+	<script src="./L.KML.js"></script>
+	<style>
+		.leaflet-control-layers{
+			font-size: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div id="mapid" style="
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		height: 100%;
+		width: 100%;"
+	/>
+
+<script>
+	map = new L.Map('mapid', {
+//		maxZoom: 18
+	});
+	var geoadminUrl = 'http://wms.geo.admin.ch/?';
+	
+	var basemaps = {
+		'Landeskarten': L.tileLayer.wms(geoadminUrl, {
+			layers: 'ch.swisstopo.pixelkarte-farbe',
+			format: 'image/jpeg',
+			detectRetina: true,
+            maxZoom: 22,
+	    }),
+		'Swissimage': L.tileLayer.wms(geoadminUrl, {
+			layers: 'ch.swisstopo.swissimage',
+			format: 'image/jpeg',
+			detectRetina: true,
+            maxZoom: 22,
+	  })
+	};
+
+	var overlays = {
+		'Strassennamen': L.tileLayer.wms(geoadminUrl, {
+				layers: 'ch.swisstopo.amtliches-strassenverzeichnis',
+				format: 'image/png',
+				transparent: true,
+	    }),
+		'Amtliches Gebäudeadressverzeichnis': L.tileLayer.wms(geoadminUrl, {
+			layers: 'ch.swisstopo.amtliches-gebaeudeadressverzeichnis',
+			format: 'image/png',
+			transparent: true,
+	    }),
+	};
+
+	L.control.layers(basemaps, overlays).addTo(map);
+	var layer = basemaps["Swissimage"];
+	map.addLayer(layer);
+    // Load kml file
+    fetch('http://127.0.0.1:8000/merian.kml')
+        .then(res => res.text())
+        .then(kmltext => {
+            // Create new kml overlay
+            const parser = new DOMParser();
+            const kml = parser.parseFromString(kmltext, 'text/xml');
+            const track = new L.KML(kml);
+            map.addLayer(track);
+
+            // Adjust map to show the kml
+            //const bounds = track.getBounds();
+            //map.fitBounds(bounds);
+        });
+
+    var powerPlugStyle = {
+	    color: '#ff0000aa',
+        fillColor: '#ff0000',
+	    fillOpacity: 0.2
+	};
+
+	L.circle([47.53890, 7.61546], 80, powerPlugStyle).addTo(map);
+	L.circle([47.53763, 7.61499], 80, powerPlugStyle).addTo(map);
+	L.circle([47.53502, 7.61325], 80, powerPlugStyle).addTo(map);
+	L.circle([47.53516, 7.61476], 80, powerPlugStyle).addTo(map);
+	L.circle([47.53554, 7.61455], 80, powerPlugStyle).addTo(map);
+
+	map.setView([47.53680, 7.61400], 17);
+	map.attributionControl.addAttribution("Maps by <a href='https://www.swisstopo.admin.ch/en/home.html'>swisstopo</a>");
+
+</script>
+</body>
+</html>
