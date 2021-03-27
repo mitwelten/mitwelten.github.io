@@ -62,7 +62,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>Sensor&lt;br/&gt;0000-0001</name>
+      <name>Sensor 0000-0001</name>
       <description>&lt;a target="_blank" href="https://mitwelten.org/id/0000-0001"&gt;More info ...&lt;/a&gt;</description>
       <Style>
         <IconStyle>
@@ -134,7 +134,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>LoRaWAN&lt;br/&gt;Gateway</name>
+      <name>LoRaWAN Gateway</name>
       <description></description>
       <Style>
         <IconStyle>
