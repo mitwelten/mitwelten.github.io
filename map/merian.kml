@@ -115,11 +115,11 @@
       <description></description>
       <Style>
         <LineStyle>
-          <color>0000ffff</color>
-          <width>0</width>
+          <color>ff0000ff</color>
+          <width>3</width>
         </LineStyle>
         <PolyStyle>
-          <color>000066ff</color>
+          <color>660000ff</color>
         </PolyStyle>
       </Style>
       <LineString>
