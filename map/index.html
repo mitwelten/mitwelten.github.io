@@ -63,7 +63,7 @@
 	var layer = basemaps["Swissimage"];
 	map.addLayer(layer);
     // Load kml file
-    fetch('http://127.0.0.1:8000/merian.kml')
+    fetch('./merian.kml')
         .then(res => res.text())
         .then(kmltext => {
             // Create new kml overlay
