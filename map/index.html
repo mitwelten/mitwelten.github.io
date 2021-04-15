@@ -63,7 +63,8 @@
 	var layer = basemaps["Swissimage"];
 	map.addLayer(layer);
     // Load kml file
-    fetch('./merian.kml')
+    //fetch('./merian.kml')
+    fetch('https://fhnw-imvs-afe077e3-1c48-407a-b75c-c8cb4a9076a0.try.yaler.io/geoserver/cite/wms/kml?layers=cite%3Aextent')
         .then(res => res.text())
         .then(kmltext => {
             // Create new kml overlay
