@@ -14,6 +14,13 @@
 		.leaflet-control-layers{
 			font-size: 15px;
 		}
+		#layerButton {
+  			position: absolute;
+  			top: 10px;
+  			right: 100px;
+  			padding: 10px;
+  			z-index: 400;
+		}
 	</style>
 </head>
 <body>
@@ -23,10 +30,11 @@
 		top: 0px;
 		height: 100%;
 		width: 100%;"
-	/>
+	>
 
 <script>
-
+	var track = new L.KML(); //initialize kml layer
+	
 	map = new L.Map('mapid', {
 //		maxZoom: 18
 	});
@@ -74,23 +82,23 @@
 	L.control.layers(basemaps, overlays).addTo(map);
 	var layer = basemaps["Swissimage"];
 	map.addLayer(layer);
-    // Load kml file
-    //fetch('./merian.kml')
-    //fetch('https://www.mitwelten.org/map/geoserver.kml')
-    //fetch('https://geo.mitwelten.org/geoserver/cite/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=cite%3Aextent&outputFormat=kml')
-    //    .then(res => res.text())
-    //    .then(kmltext => {
-            // Create new kml overlay
-    //        const parser = new DOMParser();
-    //        const kml = parser.parseFromString(kmltext, 'text/xml');
-    //        const track = new L.KML(kml);
-    //        map.addLayer(track);
-          //  L.control.addOverlay(track, 'merian');
 
-            // Adjust map to show the kml
-            //const bounds = track.getBounds();
-            //map.fitBounds(bounds);
-    //    });
+	// enable / disable kml layer
+	function showKml(){
+		if(map.hasLayer(track)){ 		// Layer already exisis, so remove it
+			map.removeLayer(track);
+		}else{					// Layer does not exist yet, create it
+			fetch('https://geo.mitwelten.org/geoserver/cite/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=cite%3Aextent&outputFormat=kml')
+				.then(res => res.text())
+				.then(kmltext => {
+					const parser = new DOMParser();
+					const kml = parser.parseFromString(kmltext, 'text/xml');
+					track = new L.KML(kml);
+					map.addLayer(track);
+				});
+		}
+	}	
+	
 
     //var powerPlugStyle = {
 	//    color: '#ff0000aa',
@@ -108,5 +116,6 @@
 	map.attributionControl.addAttribution("Maps by <a href='https://www.swisstopo.admin.ch/en/home.html'>swisstopo</a>");
 
 </script>
+<button id="layerButton" onclick="showKml()">KML Layer</button>
 </body>
 </html>
