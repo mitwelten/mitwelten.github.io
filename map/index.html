@@ -29,7 +29,7 @@
 	map = new L.Map('mapid', {
 //		maxZoom: 18
 	});
-	var geoadminUrl = 'http://wms.geo.admin.ch/?';
+	var geoadminUrl = 'https://wms.geo.admin.ch/?'; // changed to https
 	
 	var basemaps = {
 		'Landeskarten': L.tileLayer.wms(geoadminUrl, {
