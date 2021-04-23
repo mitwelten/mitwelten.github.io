@@ -78,7 +78,10 @@
 			format: 'image/png',
 			transparent: true,
 	    })
-	    'Merian Layer': new L.KML('https://geo.mitwelten.org/geoserver/cite/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=cite%3Aextent&outputFormat=kml', { async: true })
+	    'Merian Layer': new L.KML(
+	    	"https://geo.mitwelten.org/geoserver/cite/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=cite%3Aextent&outputFormat=kml", 
+	    	{ async: true }
+	    )
 	};
 
 	L.control.layers(basemaps, overlays).addTo(map);
