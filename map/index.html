@@ -26,28 +26,6 @@
 	/>
 
 <script>
-	/*
-    function getLayer() {
-	    // Load kml file
-	    //fetch('./merian.kml')
-	    //fetch('./geoserver.kml')
-	    fetch('https://fhnw-imvs-afe077e3-1c48-407a-b75c-c8cb4a9076a0.try.yaler.io/geoserver/cite/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=cite%3Aextent&outputFormat=kml')
-	        .then(res => res.text())
-	        .then(kmltext => {
-	            // Create new kml overlay
-	            const parser = new DOMParser();
-	            const kml = parser.parseFromString(kmltext, 'text/xml');
-	            const track = new L.KML(kml);
-	            //map.addLayer(track);
-	            L.control.addOverlay(track, 'merian');
-
-	            // Adjust map to show the kml
-	            //const bounds = track.getBounds();
-	            //map.fitBounds(bounds);
-	        });
-	    return track;
-    }
-    */
 
 	map = new L.Map('mapid', {
 //		maxZoom: 18
@@ -80,7 +58,7 @@
 			format: 'image/png',
 			transparent: true,
 	    }),
-		'Merian': L.tileLayer.wms('https://geo.mitwelten.org/geoserver/wms', {
+		'Merian Layer': L.tileLayer.wms('https://geo.mitwelten.org/geoserver/wms', {
 			layers: 'cite:extent',
 			format: 'image/png',
 			transparent: true,
