@@ -29,7 +29,7 @@
 	map = new L.Map('mapid', {
 //		maxZoom: 18
 	});
-	var geoadminUrl = 'http://wms.geo.admin.ch/?';
+	var geoadminUrl = 'https://wms.geo.admin.ch/?';
 	
 	var basemaps = {
 		'Landeskarten': L.tileLayer.wms(geoadminUrl, {
@@ -64,8 +64,8 @@
 	map.addLayer(layer);
     // Load kml file
     //fetch('./merian.kml')
-    fetch('./geoserver.kml')
-    //fetch('https://fhnw-imvs-afe077e3-1c48-407a-b75c-c8cb4a9076a0.try.yaler.io/geoserver/cite/wms/kml?layers=cite%3Aextent')
+    //fetch('./geoserver.kml')
+    fetch('https://fhnw-imvs-afe077e3-1c48-407a-b75c-c8cb4a9076a0.try.yaler.io/geoserver/cite/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=cite%3Aextent&outputFormat=kml')
         .then(res => res.text())
         .then(kmltext => {
             // Create new kml overlay
