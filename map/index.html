@@ -78,7 +78,7 @@
 			format: 'image/png',
 			transparent: true,
 	    }),
-	    'Merian Layer': new L.KML("https://www.mitwelten.org/map/geoserver.kml", {async: true})
+	    'Merian Layer': new L.KML("https://www.mitwelten.org/map/geoserver.kml", { async: false })
 	};
 
 	L.control.layers(basemaps, overlays).addTo(map);
