@@ -72,7 +72,8 @@
             const parser = new DOMParser();
             const kml = parser.parseFromString(kmltext, 'text/xml');
             const track = new L.KML(kml);
-            map.addLayer(track);
+            //map.addLayer(track);
+            L.control.addOverlay(track, 'merian');
 
             // Adjust map to show the kml
             //const bounds = track.getBounds();
