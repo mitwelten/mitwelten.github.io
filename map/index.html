@@ -54,7 +54,17 @@
             maxZoom: 21,
 	  })
 	};
-
+	// merian layer as geoJson
+	var merian_layer = new L.geoJson();
+	fetch("https://geo.mitwelten.org/geoserver/cite/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=cite%3Aextent&maxFeatures=50&outputFormat=application%2Fjson")
+	.then(function (response) {
+		return response.json();
+	}).then(function (data) {
+		merian_layer.addData(data);
+	}).catch(function (error) {
+		console.log("error: " + error);
+	});
+	
 	var overlays = {
 		'Strassennamen': L.tileLayer.wms(geoadminUrl, {
 				layers: 'ch.swisstopo.amtliches-strassenverzeichnis',
@@ -71,6 +81,7 @@
 			format: 'image/png',
 			transparent: true,
 	    }),
+		'Merian GeoJson':merian_layer
 		/*
 	    'Merian Layer': new L.KML(
 	    	'https://geo.mitwelten.org/geoserver/cite/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=cite%3Aextent&outputFormat=kml', 
