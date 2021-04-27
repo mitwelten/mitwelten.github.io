@@ -14,13 +14,7 @@
 		.leaflet-control-layers{
 			font-size: 15px;
 		}
-		#layerButton {
-  			position: absolute;
-  			top: 10px;
-  			right: 100px;
-  			padding: 10px;
-  			z-index: 400;
-		}
+
 	</style>
 </head>
 <body>
@@ -76,7 +70,7 @@
 			format: 'image/png',
 			transparent: true,
 	    }),
-		'Merian Layer': L.tileLayer.wms('https://geo.mitwelten.org/geoserver/wms', {
+		'Merian WMS': L.tileLayer.wms('https://geo.mitwelten.org/geoserver/wms', {
 			layers: 'cite:extent',
 			format: 'image/png',
 			transparent: true,
@@ -94,21 +88,7 @@
 	var layer = basemaps["Swissimage"];
 	map.addLayer(layer);
 
-	// enable / disable kml layer
-	function showKml(){
-		if(map.hasLayer(track)){ 		// Layer already exisis, so remove it
-			map.removeLayer(track);
-		}else{					// Layer does not exist yet, create it
-			fetch('https://geo.mitwelten.org/geoserver/cite/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=cite%3Aextent&outputFormat=kml')
-				.then(res => res.text())
-				.then(kmltext => {
-					const parser = new DOMParser();
-					const kml = parser.parseFromString(kmltext, 'text/xml');
-					track = new L.KML(kml);
-					map.addLayer(track);
-				});
-		}
-	}	
+	
 	
 
     //var powerPlugStyle = {
@@ -127,6 +107,5 @@
 	map.attributionControl.addAttribution("Maps by <a href='https://www.swisstopo.admin.ch/en/home.html'>swisstopo</a>");
 
 </script>
-<button id="layerButton" onclick="showKml()">KML Layer</button>
 </body>
 </html>
