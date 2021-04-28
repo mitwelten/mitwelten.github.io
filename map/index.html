@@ -87,7 +87,9 @@
 	L.control.layers(basemaps, overlays).addTo(map);
 	var layer = basemaps["Swissimage"];
 	map.addLayer(layer);
-
+	
+	// add Merian GeoJson Layer to default view
+	map.addLayer(merian_layer);
 	
 	
 
