@@ -91,6 +91,9 @@
 	// add Merian GeoJson Layer to default view
 	map.addLayer(merian_layer);
 	
+	// zoom to the layer
+	map.fitBounds(merian_layer.getBounds());
+	
 	
 
     //var powerPlugStyle = {
