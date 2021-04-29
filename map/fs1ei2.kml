@@ -53,11 +53,13 @@
           <color>660000ff</color>
         </PolyStyle>
       </Style>
+      <!--
       <LineString>
         <tessellate>1</tessellate>
         <altitudeMode>clampToGround</altitudeMode>
         <coordinates>7.613247528861732,47.53502301712898 7.612304353381269,47.53438411096584</coordinates>
       </LineString>
+      -->
     </Placemark>
     <Placemark id="marker_1618567524980">
       <ExtendedData>
