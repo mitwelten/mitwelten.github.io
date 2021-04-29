@@ -27,10 +27,8 @@
 	>
 
 <script>
-	var track = new L.KML(); //initialize kml layer
-	
 	map = new L.Map('mapid', {
-//		maxZoom: 18
+		//maxZoom: 18
 	});
 	var geoadminUrl = 'https://wms.geo.admin.ch/?';
 	
@@ -49,7 +47,7 @@
 	  })
 	};
 	// merian layer as geoJson
-	var merian_layer = new L.geoJson();
+	const merian_layer = new L.geoJson();
 	fetch("https://geo.mitwelten.org/geoserver/cite/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=cite%3Aextent&maxFeatures=50&outputFormat=application%2Fjson")
 	.then(function (response) {
 		return response.json();
@@ -58,7 +56,16 @@
 	}).catch(function (error) {
 		console.log("error: " + error);
 	});
-	
+
+    const fs1ei2 = new L.KML(kml);
+    fetch('./fs01ei02.kml');
+    .then(res => res.text())
+    .then(kmltext => {
+        const parser = new DOMParser();
+        const kml = parser.parseFromString(kmltext, 'text/xml');
+        map.addLayer(fs1ei2);
+    });
+
 	var overlays = {
 		'Strassennamen': L.tileLayer.wms(geoadminUrl, {
 				layers: 'ch.swisstopo.amtliches-strassenverzeichnis',
@@ -75,13 +82,8 @@
 			format: 'image/png',
 			transparent: true,
 	    }),
-		'Merian GeoJson':merian_layer
-		/*
-	    'Merian Layer': new L.KML(
-	    	'https://geo.mitwelten.org/geoserver/cite/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=cite%3Aextent&outputFormat=kml', 
-	    	{ async: true }
-	    )
-	    */
+		'Merian GeoJson': merian_layer,
+		'FS1 Ei2 KML': fs1ei2
 	};
 
 	L.control.layers(basemaps, overlays).addTo(map);
@@ -91,27 +93,11 @@
 	// add Merian GeoJson Layer to default view
 	map.addLayer(merian_layer);
 	
-
-	
-	
-
-    //var powerPlugStyle = {
-	//    color: '#ff0000aa',
-    //    fillColor: '#ff0000',
-	//    fillOpacity: 0.2
-	//};
-
-	//L.circle([47.53890, 7.61546], 80, powerPlugStyle).addTo(map);
-	//L.circle([47.53763, 7.61499], 80, powerPlugStyle).addTo(map);
-	//L.circle([47.53502, 7.61325], 80, powerPlugStyle).addTo(map);
-	//L.circle([47.53516, 7.61476], 80, powerPlugStyle).addTo(map);
-	//L.circle([47.53554, 7.61455], 80, powerPlugStyle).addTo(map);
 	map.setView([47.53565, 7.61400], 17);
 	
 	map.attributionControl.addAttribution("Maps by <a href='https://www.swisstopo.admin.ch/en/home.html'>swisstopo</a>");
 	// zoom to the layer
 	//map.fitBounds(merian_layer.getBounds());
-
 </script>
 </body>
 </html>
