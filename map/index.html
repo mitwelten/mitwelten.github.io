@@ -57,12 +57,13 @@
 		console.log("error: " + error);
 	});
 
-    const fs1ei2 = new L.KML(kml);
+    const fs1ei2 = new L.KML();
     fetch('./fs01ei02.kml')
     .then(res => res.text())
     .then(kmltext => {
         const parser = new DOMParser();
         const kml = parser.parseFromString(kmltext, 'text/xml');
+        fs1ei2.addKML(kml);
         map.addLayer(fs1ei2);
     });
 
