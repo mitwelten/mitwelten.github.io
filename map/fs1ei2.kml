@@ -94,6 +94,7 @@
         <coordinates>7.612607460230546,47.534848934331535</coordinates>
       </Point>
     </Placemark>
+    <!--
     <Placemark id="measure_1618567565347">
       <ExtendedData>
         <Data name="overlays"/>
@@ -116,6 +117,7 @@
         <coordinates>7.612607460230546,47.534848934331535 7.612438703513264,47.534709988717275</coordinates>
       </LineString>
     </Placemark>
+    -->
     <Placemark id="marker_1618567600451">
       <ExtendedData>
         <Data name="type">
@@ -203,6 +205,7 @@
         <coordinates>7.612623081241069,47.53468077963161</coordinates>
       </Point>
     </Placemark>
+    <!--
     <Placemark id="measure_1618567756919">
       <ExtendedData>
         <Data name="htmlpopup">
@@ -231,6 +234,7 @@
         <coordinates>7.612607460230546,47.534848934331535 7.613139538758405,47.53464948632092</coordinates>
       </LineString>
     </Placemark>
+    -->
     <Placemark id="marker_1618567802926">
       <ExtendedData>
         <Data name="type">
@@ -285,6 +289,7 @@
         <coordinates>7.614513998933119,47.534048683131005</coordinates>
       </Point>
     </Placemark>
+    <!--
     <Placemark id="measure_1618567863388">
       <ExtendedData>
         <Data name="overlays"/>
@@ -307,6 +312,7 @@
         <coordinates>7.614513998933119,47.534048683131005 7.614272439257241,47.5339703952415</coordinates>
       </LineString>
     </Placemark>
+    -->
     <Placemark id="linepolygon_1618567877581">
       <ExtendedData>
         <Data name="type">
@@ -470,6 +476,7 @@
         <coordinates>7.614532075677786,47.53503845321426</coordinates>
       </Point>
     </Placemark>
+    <!--
     <Placemark id="measure_1618568219330">
       <ExtendedData>
         <Data name="overlays"/>
@@ -492,6 +499,7 @@
         <coordinates>7.614532075677786,47.53503845321426 7.614273608782852,47.535077741319554</coordinates>
       </LineString>
     </Placemark>
+    -->
     <Placemark id="linepolygon_1618568249932">
       <ExtendedData>
         <Data name="type">
@@ -649,6 +657,7 @@
         <coordinates>7.61454405385556,47.535536852293454</coordinates>
       </Point>
     </Placemark>
+    <!--
     <Placemark id="measure_1618568560771">
       <ExtendedData>
         <Data name="overlays"/>
@@ -671,6 +680,7 @@
         <coordinates>7.61454405385556,47.535536852293454 7.6147531268825315,47.53641730946384</coordinates>
       </LineString>
     </Placemark>
+    -->
     <Placemark id="marker_1618568622240">
       <ExtendedData>
         <Data name="type">
@@ -698,6 +708,7 @@
         <coordinates>7.614576722064616,47.536010600207504</coordinates>
       </Point>
     </Placemark>
+    <!--
     <Placemark id="measure_1618568663335">
       <ExtendedData>
         <Data name="overlays"/>
@@ -720,6 +731,7 @@
         <coordinates>7.614576722064616,47.536010600207504 7.614315914405625,47.53597859793778</coordinates>
       </LineString>
     </Placemark>
+    -->
     <Placemark id="marker_1618568808201">
       <ExtendedData>
         <Data name="type">
@@ -938,6 +950,7 @@
         <coordinates>7.61454405385556,47.535536852293454 7.614522286736223,47.53559979340381 7.61464773373378,47.53597347711151 7.614576722064616,47.536010600207504</coordinates>
       </LineString>
     </Placemark>
+    <!--
     <Placemark id="measure_1618568978979">
       <ExtendedData>
         <Data name="overlays"/>
@@ -960,6 +973,7 @@
         <coordinates>7.614576722064616,47.536010600207504 7.61426708139579,47.535671120466205</coordinates>
       </LineString>
     </Placemark>
+    -->
     <Placemark id="marker_1618569127857">
       <ExtendedData>
         <Data name="type">
@@ -1058,6 +1072,7 @@
         <coordinates>7.615469984910125,47.538526128043706 7.615397059840619,47.53841822338229 7.615322398288341,47.53843380335783 7.615356406292409,47.53849902590966</coordinates>
       </LineString>
     </Placemark>
+    <!--
     <Placemark id="measure_1618569560794">
       <ExtendedData>
         <Data name="overlays"/>
@@ -1080,6 +1095,7 @@
         <coordinates>7.615469984910125,47.538526128043706 7.615592412838892,47.53867791379544</coordinates>
       </LineString>
     </Placemark>
+    -->
     <Placemark id="marker_1618569572764">
       <ExtendedData>
         <Data name="type">
@@ -1107,6 +1123,7 @@
         <coordinates>7.6154125375867805,47.53875759399601</coordinates>
       </Point>
     </Placemark>
+    <!--
     <Placemark id="measure_1618569614920">
       <ExtendedData>
         <Data name="overlays"/>
@@ -1129,6 +1146,7 @@
         <coordinates>7.615469984910125,47.538526128043706 7.6154884777946235,47.538794188095565</coordinates>
       </LineString>
     </Placemark>
+    -->
     <Placemark id="linepolygon_1618569657327">
       <ExtendedData>
         <Data name="type">
