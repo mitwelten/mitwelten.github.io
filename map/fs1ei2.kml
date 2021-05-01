@@ -125,7 +125,7 @@
         </Data>
       </ExtendedData>
       <name>Topf</name>
-      <description>Raspberry Pi Cam, Wi-Fi, Solar</description>
+      <description>Solar</description>
       <Style>
         <IconStyle>
           <Icon>
@@ -175,7 +175,7 @@
     <Placemark id="marker_1618567662700">
       <ExtendedData>
         <Data name="htmlpopup">
-          <value>&lt;div id="KML||https://public.geo.admin.ch/bPeZErT2SJy6Y6t0UmAs_A#marker_1618567662700" class="htmlpopup-container"&gt;&lt;div class="htmlpopup-header"&gt;&lt;span&gt;Drawing &amp;nbsp;&lt;/span&gt;(Topf)&lt;/div&gt;&lt;div class="htmlpopup-content"&gt;am Hang&lt;/div&gt;&lt;/div&gt;</value>
+          <value>&lt;div id="KML||https://public.geo.admin.ch/bPeZErT2SJy6Y6t0UmAs_A#marker_1618567662700" class="htmlpopup-container"&gt;&lt;div class="htmlpopup-header"&gt;&lt;span&gt;Drawing &amp;nbsp;&lt;/span&gt;(Topf)&lt;/div&gt;&lt;div class="htmlpopup-content"&gt;&lt;/div&gt;&lt;/div&gt;</value>
         </Data>
         <Data name="layerId">
           <value>KML||https://public.geo.admin.ch/bPeZErT2SJy6Y6t0UmAs_A</value>
@@ -185,7 +185,7 @@
         </Data>
       </ExtendedData>
       <name>Topf</name>
-      <description>am Hang</description>
+      <description></description>
       <Style>
         <IconStyle>
           <Icon>
