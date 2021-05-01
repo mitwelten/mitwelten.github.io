@@ -78,13 +78,18 @@
 			format: 'image/png',
 			transparent: true,
 	    }),
-		'Merian WMS': L.tileLayer.wms('https://geo.mitwelten.org/geoserver/wms', {
+	    'Dry grasslands (DGS)': L.tileLayer.wms(geoadminUrl, {
+				layers: 'ch.bafu.bundesinventare-trockenwiesen_trockenweiden',
+				format: 'image/png',
+				transparent: true,
+	    }),
+		'Merian Perimeter (WMS)': L.tileLayer.wms('https://geo.mitwelten.org/geoserver/wms', {
 			layers: 'cite:extent',
 			format: 'image/png',
 			transparent: true,
 	    }),
-		'Merian GeoJson': merian_layer,
-		'FS1 Ei2 KML': fs1ei2
+		'Merian Perimeter (GeoJson)': merian_layer,
+		'FS1 Ei2 (KML)': fs1ei2
 	};
 
 	L.control.layers(basemaps, overlays).addTo(map);
