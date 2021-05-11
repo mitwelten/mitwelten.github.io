@@ -83,24 +83,24 @@
 				format: 'image/png',
 				transparent: true,
 	    }),
-		'Amtliches Gebäudeadressverzeichnis': L.tileLayer.wms(geoadminUrl, {
-			layers: 'ch.swisstopo.amtliches-gebaeudeadressverzeichnis',
-			format: 'image/png',
-			transparent: true,
-	    }),
+		//'Amtliches Gebäudeadressverzeichnis': L.tileLayer.wms(geoadminUrl, {
+		//	layers: 'ch.swisstopo.amtliches-gebaeudeadressverzeichnis',
+		//	format: 'image/png',
+		//	transparent: true,
+	    //}),
 	    'Dry grasslands (DGS)': L.tileLayer.wms(geoadminUrl, {
 				layers: 'ch.bafu.bundesinventare-trockenwiesen_trockenweiden',
 				format: 'image/png',
 				transparent: true,
 	    }),
-		'Merian Perimeter (WMS)': L.tileLayer.wms('https://geo.mitwelten.org/geoserver/wms', {
-			layers: 'cite:extent',
-			format: 'image/png',
-			transparent: true,
-	    }),
-		'Merian Perimeter (GeoJson)': merian_layer,
-		'Transect Walk (KML)': transect,
-		'FS1 Ei2 (KML)': fs1ei2,
+		//'Merian Perimeter': L.tileLayer.wms('https://geo.mitwelten.org/geoserver/wms', {
+		//	layers: 'cite:extent',
+		//	format: 'image/png',
+		//	transparent: true,
+	    //}),
+		'Merian Perimeter': merian_layer,
+		'Transect Walk': transect,
+		'FS1 Ei2': fs1ei2,
 	};
 
 	L.control.layers(basemaps, overlays).addTo(map);
