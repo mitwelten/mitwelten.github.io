@@ -67,6 +67,16 @@
         map.addLayer(fs1ei2);
     });
 
+    const transect = new L.KML();
+    fetch('./transect.kml')
+    .then(res => res.text())
+    .then(kmltext => {
+        const parser = new DOMParser();
+        const kml = parser.parseFromString(kmltext, 'text/xml');
+        transect.addKML(kml);
+        map.addLayer(transect);
+    });
+
 	var overlays = {
 		'Strassennamen': L.tileLayer.wms(geoadminUrl, {
 				layers: 'ch.swisstopo.amtliches-strassenverzeichnis',
@@ -89,7 +99,8 @@
 			transparent: true,
 	    }),
 		'Merian Perimeter (GeoJson)': merian_layer,
-		'FS1 Ei2 (KML)': fs1ei2
+		'Transect Walk (KML)': transect,
+		'FS1 Ei2 (KML)': fs1ei2,
 	};
 
 	L.control.layers(basemaps, overlays).addTo(map);
