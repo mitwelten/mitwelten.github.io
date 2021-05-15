@@ -57,6 +57,16 @@
 		console.log("error: " + error);
 	});
 
+    const fs1ei0 = new L.KML();
+    fetch('./fs1ei0.kml')
+    .then(res => res.text())
+    .then(kmltext => {
+        const parser = new DOMParser();
+        const kml = parser.parseFromString(kmltext, 'text/xml');
+        fs1ei0.addKML(kml);
+        map.addLayer(fs1ei0);
+    });
+
     const fs1ei2 = new L.KML();
     fetch('./fs1ei2.kml')
     .then(res => res.text())
@@ -100,6 +110,7 @@
 	    //}),
 		'Merian Perimeter': merian_layer,
 		'Transect Walk': transect,
+		'FS1 Ei0': fs1ei0,
 		'FS1 Ei2': fs1ei2,
 	};
 
