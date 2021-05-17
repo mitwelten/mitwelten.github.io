@@ -139,5 +139,59 @@
         <coordinates>7.615415,47.538413</coordinates>
       </Point>
     </Placemark>
+    <Placemark id="marker_6444-8804">
+      <ExtendedData>
+        <Data name="type">
+          <value>marker</value>
+        </Data>
+      </ExtendedData>
+      <name>Audio Logger</name>
+      <description>&lt;a target="_blank" href="https://mitwelten.org/id/6444-8804"&gt;More info ...&lt;/a&gt;</description>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+            <gx:w>48</gx:w>
+            <gx:h>48</gx:h>
+          </Icon>
+          <hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+        </IconStyle>
+        <LabelStyle>
+          <color>ff0000ff</color>
+        </LabelStyle>
+      </Style>
+      <Point>
+        <tessellate>1</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>7.591551112713341,47.5612038295474</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="marker_6431-2987">
+      <ExtendedData>
+        <Data name="type">
+          <value>marker</value>
+        </Data>
+      </ExtendedData>
+      <name>Audio Logger</name>
+      <description>&lt;a target="_blank" href="https://mitwelten.org/id/6431-2987"&gt;More info ...&lt;/a&gt;</description>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+            <gx:w>48</gx:w>
+            <gx:h>48</gx:h>
+          </Icon>
+          <hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+        </IconStyle>
+        <LabelStyle>
+          <color>ff0000ff</color>
+        </LabelStyle>
+      </Style>
+      <Point>
+        <tessellate>1</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>7.596164727046104,47.54329652492795</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
