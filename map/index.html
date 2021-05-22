@@ -48,7 +48,7 @@
 	};
 	// merian layer as geoJson
 	const merian_layer = new L.geoJson();
-	fetch("https://geo.mitwelten.org/geoserver/cite/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=cite%3Aextent&maxFeatures=50&outputFormat=application%2Fjson")
+	fetch("https://geo.mitwelten.org/geoserver/cite/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=cite%3Ags_extent&maxFeatures=50&outputFormat=application%2Fjson")
 	.then(function (response) {
 		return response.json();
 	}).then(function (data) {
