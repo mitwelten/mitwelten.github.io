@@ -59,7 +59,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V</name>
+      <name>220V A</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -305,7 +305,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V</name>
+      <name>220V B</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -654,7 +654,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V</name>
+      <name>220V C</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -850,7 +850,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V</name>
+      <name>220V D</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -1190,13 +1190,14 @@
         <coordinates>7.614361170451952,47.53416365242426,0</coordinates>
       </Point>
     </Placemark>
+    <!-- 220V Villa -->
     <Placemark id="marker_1620328219254">
       <ExtendedData>
         <Data name="type">
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V</name>
+      <name>220V E</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -1227,7 +1228,7 @@
       <description></description>
       <Style>
         <LineStyle>
-          <color>ff0ff0ff</color>
+          <color>ff0000ff</color>
           <width>3</width>
         </LineStyle>
         <PolyStyle>
@@ -1240,7 +1241,7 @@
         <coordinates>7.612838796067748,47.534915704812484,0 7.613006820668832,47.53493294549552,0 7.613037938740381,47.53493040098748,0 7.613144895268083,47.53502754246463,0 7.613253793728006,47.535018824499424,0</coordinates>
       </LineString>
     </Placemark>
-
+    <!-- AP Villa -->
     <Placemark id="marker_1623514862156">
       <ExtendedData>
         <Data name="type">
@@ -1373,7 +1374,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V Villa</name>
+      <name>220V F</name>
       <description></description>
       <Style>
         <IconStyle>
