@@ -1306,11 +1306,11 @@
       <description></description>
       <Style>
         <LineStyle>
-          <color>ffff0000</color>
+          <color>ff0000ff</color>
           <width>3</width>
         </LineStyle>
         <PolyStyle>
-          <color>66ff0000</color>
+          <color>660000ff</color>
         </PolyStyle>
       </Style>
       <LineString>
@@ -1486,11 +1486,11 @@
       <description></description>
       <Style>
         <LineStyle>
-          <color>ffff0000</color>
+          <color>ff0000ff</color>
           <width>3</width>
         </LineStyle>
         <PolyStyle>
-          <color>66ff0000</color>
+          <color>660000ff</color>
         </PolyStyle>
       </Style>
       <LineString>
@@ -1588,11 +1588,11 @@
       <description></description>
       <Style>
         <LineStyle>
-          <color>ffff0000</color>
+          <color>ff0000ff</color>
           <width>3</width>
         </LineStyle>
         <PolyStyle>
-          <color>66ff0000</color>
+          <color>660000ff</color>
         </PolyStyle>
       </Style>
       <LineString>
