@@ -773,6 +773,7 @@
         <coordinates>7.61458,47.53500,0 7.61462,47.53500,0 7.61462448822553,47.5350189524508,0</coordinates>
       </LineString>
     </Placemark>
+<!--
     <Placemark id="marker_1620346357555">
       <ExtendedData>
         <Data name="htmlpopup">
@@ -806,6 +807,7 @@
         <coordinates>7.612736320857499,47.534925275630066,0</coordinates>
       </Point>
     </Placemark>
+-->
     <Placemark id="marker_1620340360410">
       <ExtendedData>
         <Data name="type">
@@ -833,6 +835,7 @@
         <coordinates>7.614388244489638,47.5349734760997,0</coordinates>
       </Point>
     </Placemark>
+<!--
     <Placemark id="marker_1620346796984">
       <ExtendedData>
         <Data name="type">
@@ -860,6 +863,7 @@
         <coordinates>7.612649465963503,47.53497873171242,0</coordinates>
       </Point>
     </Placemark>
+-->
     <Placemark id="linepolygon_1620374724052">
       <ExtendedData>
         <Data name="type">
@@ -1047,6 +1051,7 @@
         <coordinates>7.612978833781275,47.5346300584325,0</coordinates>
       </Point>
     </Placemark>
+<!--
     <Placemark id="marker_1620346710967">
       <ExtendedData>
         <Data name="htmlpopup">
@@ -1080,6 +1085,8 @@
         <coordinates>7.6127874779133995,47.53478922753661,0</coordinates>
       </Point>
     </Placemark>
+-->
+<!--
     <Placemark id="marker_1620346630864">
       <ExtendedData>
         <Data name="type">
@@ -1107,6 +1114,8 @@
         <coordinates>7.612519791806135,47.53484850411485,0</coordinates>
       </Point>
     </Placemark>
+-->
+<!--
     <Placemark id="marker_1620346893907">
       <ExtendedData>
         <Data name="type">
@@ -1134,6 +1143,8 @@
         <coordinates>7.612581776133671,47.53471720380616,0</coordinates>
       </Point>
     </Placemark>
+-->
+<!--
     <Placemark id="linepolygon_1620346906160">
       <ExtendedData>
         <Data name="type">
@@ -1156,6 +1167,8 @@
         <coordinates>7.612581776133671,47.53471720380616,0 7.61267604356118,47.53488551956451,0 7.612736320857499,47.534925275630066,0</coordinates>
       </LineString>
     </Placemark>
+-->
+<!--
     <Placemark id="linepolygon_1620346736351">
       <ExtendedData>
         <Data name="type">
@@ -1178,6 +1191,8 @@
         <coordinates>7.6127874779133995,47.53478922753661,0 7.612835940160104,47.53486391780729,0 7.612736320857499,47.534925275630066,0</coordinates>
       </LineString>
     </Placemark>
+-->
+<!--
     <Placemark id="linepolygon_1620346651827">
       <ExtendedData>
         <Data name="type">
@@ -1200,6 +1215,8 @@
         <coordinates>7.612519791806135,47.53484850411485,0 7.61267604356118,47.53488551956451,0 7.612736320857499,47.534925275630066,0</coordinates>
       </LineString>
     </Placemark>
+-->
+<!--
     <Placemark id="linepolygon_1620346806844">
       <ExtendedData>
         <Data name="type">
@@ -1222,6 +1239,8 @@
         <coordinates>7.612649465963503,47.53497873171242,0 7.612736320857499,47.534925275630066,0</coordinates>
       </LineString>
     </Placemark>
+-->
+<!--
     <Placemark id="linepolygon_1620346404572">
       <ExtendedData>
         <Data name="type">
@@ -1244,6 +1263,7 @@
         <coordinates>7.613254524918304,47.53502575449163,0 7.613233487975807,47.535018754666446,0 7.61302302044672,47.53503961754468,0 7.612860234915346,47.53498858077823,0 7.612736320857499,47.534925275630066,0</coordinates>
       </LineString>
     </Placemark>
+-->
     <Placemark id="marker_1620327557171">
       <ExtendedData>
         <Data name="htmlpopup">
