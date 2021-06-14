@@ -59,7 +59,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V A</name>
+      <name>220V Tor</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -305,7 +305,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V B</name>
+      <name>220V Stall</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -654,7 +654,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V C</name>
+      <name>220V Garten</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -843,33 +843,6 @@
         <altitudeMode>clampToGround</altitudeMode>
         <coordinates>7.61458,47.53500,0 7.6145065556366065,47.53500099481407,0 7.614501628656865,47.53496591657166,0 7.614388244489638,47.5349734760997,0</coordinates>
       </LineString>
-    </Placemark>
-    <Placemark id="marker_1620346461256">
-      <ExtendedData>
-        <Data name="type">
-          <value>marker</value>
-        </Data>
-      </ExtendedData>
-      <name>220V D</name>
-      <description></description>
-      <Style>
-        <IconStyle>
-          <Icon>
-            <href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
-            <gx:w>48</gx:w>
-            <gx:h>48</gx:h>
-          </Icon>
-          <hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
-        </IconStyle>
-        <LabelStyle>
-          <color>ff0000ff</color>
-        </LabelStyle>
-      </Style>
-      <Point>
-        <tessellate>1</tessellate>
-        <altitudeMode>clampToGround</altitudeMode>
-        <coordinates>7.613254524918304,47.53502575449163,0</coordinates>
-      </Point>
     </Placemark>
     <Placemark id="marker_1620340347455">
       <ExtendedData>
@@ -1190,14 +1163,13 @@
         <coordinates>7.614361170451952,47.53416365242426,0</coordinates>
       </Point>
     </Placemark>
-    <!-- 220V Villa -->
     <Placemark id="marker_1620328219254">
       <ExtendedData>
         <Data name="type">
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V E</name>
+      <name>220V Lehmhaus</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -1320,61 +1292,13 @@
         <coordinates>7.612623878832373,47.534925255433905,0 7.612838796067748,47.534915704812484,0</coordinates>
       </LineString>
     </Placemark>
-<!-- Street?
-    <Placemark id="linepolygon_1623527447171">
-      <ExtendedData>
-        <Data name="type">
-          <value>linepolygon</value>
-        </Data>
-      </ExtendedData>
-      <description></description>
-      <Style>
-        <LineStyle>
-          <color>ff0000ff</color>
-          <width>3</width>
-        </LineStyle>
-        <PolyStyle>
-          <color>660000ff</color>
-        </PolyStyle>
-      </Style>
-      <LineString>
-        <tessellate>1</tessellate>
-        <altitudeMode>clampToGround</altitudeMode>
-        <coordinates>7.613026236810279,47.53494994492216,0 7.613056670532488,47.535006279265254,0 7.613089736851301,47.53504428125517,0 7.613148226971857,47.5350945553987,0 7.613175406137897,47.535115354990154,0 7.6132397320076475,47.5351575048292,0</coordinates>
-      </LineString>
-    </Placemark>
--->
-<!-- Street?
-    <Placemark id="linepolygon_1623527394599">
-      <ExtendedData>
-        <Data name="type">
-          <value>linepolygon</value>
-        </Data>
-      </ExtendedData>
-      <description></description>
-      <Style>
-        <LineStyle>
-          <color>ff0000ff</color>
-          <width>3</width>
-        </LineStyle>
-        <PolyStyle>
-          <color>660000ff</color>
-        </PolyStyle>
-      </Style>
-      <LineString>
-        <tessellate>1</tessellate>
-        <altitudeMode>clampToGround</altitudeMode>
-        <coordinates>7.613026236810279,47.53494994492216,0 7.612934435823937,47.534967767898394,0 7.612912556767472,47.53497657313376,0 7.612871950795792,47.53500947186244,0 7.612845676300297,47.53504805457673,0 7.612808399048038,47.53515993220857,0</coordinates>
-      </LineString>
-    </Placemark>
--->
     <Placemark id="marker_1623663711561">
       <ExtendedData>
         <Data name="type">
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V F</name>
+      <name>220V Villa</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -1395,54 +1319,6 @@
         <coordinates>7.613253793728006,47.535018824499424</coordinates>
       </Point>
     </Placemark>
-<!-- Street?
-    <Placemark id="linepolygon_1623527421485">
-      <ExtendedData>
-        <Data name="type">
-          <value>linepolygon</value>
-        </Data>
-      </ExtendedData>
-      <description></description>
-      <Style>
-        <LineStyle>
-          <color>ff0000ff</color>
-          <width>3</width>
-        </LineStyle>
-        <PolyStyle>
-          <color>660000ff</color>
-        </PolyStyle>
-      </Style>
-      <LineString>
-        <tessellate>1</tessellate>
-        <altitudeMode>clampToGround</altitudeMode>
-        <coordinates>7.613026236810279,47.53494994492216,0 7.613005311316402,47.53483932079543,0 7.612960055195788,47.53472064569756,0 7.6129240853299525,47.53457974617822,0</coordinates>
-      </LineString>
-    </Placemark>
--->
-<!-- Street? 
-    <Placemark id="linepolygon_1623521572327">
-      <ExtendedData>
-        <Data name="type">
-          <value>linepolygon</value>
-        </Data>
-      </ExtendedData>
-      <description></description>
-      <Style>
-        <LineStyle>
-          <color>ff0000ff</color>
-          <width>3</width>
-        </LineStyle>
-        <PolyStyle>
-          <color>660000ff</color>
-        </PolyStyle>
-      </Style>
-      <LineString>
-        <tessellate>1</tessellate>
-        <altitudeMode>clampToGround</altitudeMode>
-        <coordinates>7.61273813825075,47.53454178318027,0 7.6127614457252,47.53465763848134,0 7.612803427508244,47.53475711185564,0 7.612855823134573,47.53484604757149,0 7.612886037290258,47.53490511907776,0</coordinates>
-      </LineString>
-    </Placemark>
--->
     <!-- TC Villa 1 -->
     <Placemark id="marker_1623515590645">
       <ExtendedData>
@@ -1602,29 +1478,5 @@
         <coordinates>7.612745228752687,47.53487231616786,0 7.612838796067748,47.534915704812484,0</coordinates>
       </LineString>
     </Placemark>
-<!-- Street?
-    <Placemark id="linepolygon_1623527408654">
-      <ExtendedData>
-        <Data name="type">
-          <value>linepolygon</value>
-        </Data>
-      </ExtendedData>
-      <description></description>
-      <Style>
-        <LineStyle>
-          <color>ff0000ff</color>
-          <width>3</width>
-        </LineStyle>
-        <PolyStyle>
-          <color>660000ff</color>
-        </PolyStyle>
-      </Style>
-      <LineString>
-        <tessellate>1</tessellate>
-        <altitudeMode>clampToGround</altitudeMode>
-        <coordinates>7.612886037290258,47.53490511907776,0 7.612934435823937,47.534967767898394,0</coordinates>
-      </LineString>
-    </Placemark>
--->
   </Document>
 </kml>
