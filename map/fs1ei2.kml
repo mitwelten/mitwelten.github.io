@@ -59,7 +59,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V Tor</name>
+      <name>230V Tor</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -305,7 +305,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V Stall</name>
+      <name>230V Stall</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -654,7 +654,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V Garten</name>
+      <name>230V Garten</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -1169,7 +1169,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V Lehmhaus</name>
+      <name>230V Lehmhaus</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -1298,7 +1298,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>220V Villa</name>
+      <name>230V Villa</name>
       <description></description>
       <Style>
         <IconStyle>
