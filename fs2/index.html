@@ -78,6 +78,16 @@
         map.addLayer(fs2b);
     });
 
+    const fs2c = new L.KML();
+    fetch('./fs2c.kml')
+    .then(res => res.text())
+    .then(kmltext => {
+        const parser = new DOMParser();
+        const kml = parser.parseFromString(kmltext, 'text/xml');
+        fs2c.addKML(kml);
+        map.addLayer(fs2c);
+    });
+
 //    const transect = new L.KML();
 //    fetch('./transect.kml')
 //    .then(res => res.text())
@@ -115,6 +125,7 @@
 
 		'FS2 Plan A': fs2,
 		'FS2 Plan B': fs2b,
+		'FS2 Plan C': fs2c,
 	};
 
 	L.control.layers(basemaps, overlays).addTo(map);
