@@ -64,8 +64,8 @@
     .then(kmltext => {
         const parser = new DOMParser();
         const kml = parser.parseFromString(kmltext, 'text/xml');
-        fs2.addKML(kml);
-        map.addLayer(fs2);
+//        fs2.addKML(kml);
+//        map.addLayer(fs2);
     });
 
     const fs2b = new L.KML();
@@ -74,8 +74,8 @@
     .then(kmltext => {
         const parser = new DOMParser();
         const kml = parser.parseFromString(kmltext, 'text/xml');
-        fs2b.addKML(kml);
-        map.addLayer(fs2b);
+//        fs2b.addKML(kml);
+//        map.addLayer(fs2b);
     });
 
     const fs2c = new L.KML();
@@ -125,7 +125,7 @@
 
 		'FS2 Plan A': fs2,
 		'FS2 Plan B': fs2b,
-		'FS2 Plan C': fs2c,
+		'FS2 Haltestellen': fs2c,
 	};
 
 	L.control.layers(basemaps, overlays).addTo(map);
