@@ -1,1 +1,197 @@
-﻿<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 https://developers.google.com/kml/schema/kml22gx.xsd"><Document><name>Drawing</name><Placemark id="marker_1650463661099"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>Pollinators_WildCamTV?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/0,0,255/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.610405681776048,47.53331727460063,0</coordinates></Point></Placemark><Placemark id="marker_1649868661136"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>AM?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.6105406651669,47.53338805629004,0</coordinates></Point></Placemark><Placemark id="marker_1650455738720"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>Pollinators_WildCamTV?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/0,0,255/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.610872716544918,47.53343377005437,0</coordinates></Point></Placemark><Placemark id="marker_1650459716097"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>(AM?)</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.610956525161304,47.53316438641397,0</coordinates></Point></Placemark><Placemark id="marker_1650464061086"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>PAX?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,255,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.6109717868253774,47.53286254400711,0</coordinates></Point></Placemark><Placemark id="marker_1650463364702"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>(Pollinators_WildCamTV?)</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/0,0,255/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.610974107825951,47.532983126767704,0</coordinates></Point></Placemark><Placemark id="marker_1650464099430"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>PAX?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,255,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.611002682532909,47.533382790430444,0</coordinates></Point></Placemark><Placemark id="marker_1649868620394"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>AM?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.609487000795404,47.53278172233839,0</coordinates></Point></Placemark><Placemark id="marker_1650463749040"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>Pollinators_WildCamTV?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/0,0,255/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.609425763041423,47.532982824394196,0</coordinates></Point></Placemark><Placemark id="marker_1649868707497"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>AM?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.610073801332511,47.53539640478401,0</coordinates></Point></Placemark><Placemark id="marker_1650455858525"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>(Pollinators_WildCamTV?)</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/0,0,255/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.609990016784391,47.53326465147904,0</coordinates></Point></Placemark><Placemark id="marker_1649868977327"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>AM?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.607106542342438,47.53444603433088,0</coordinates></Point></Placemark><Placemark id="marker_1649868885848"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>Pollinators_WildCamTV?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/0,0,255/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.610299607169953,47.53387877888066,0</coordinates></Point></Placemark><Placemark id="marker_1650464159453"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>PAX?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,255,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.610331097367751,47.533661216296544,0</coordinates></Point></Placemark><Placemark id="marker_1650463963899"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>(PAX?)</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,255,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.609711664200786,47.53367160706179,0</coordinates></Point></Placemark><Placemark id="marker_1649868853655"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>Pollinators_WildCamTV?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/0,0,255/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.610402291681338,47.53246813149,0</coordinates></Point></Placemark><Placemark id="marker_1650464031118"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>(PAX?)</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,255,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.608558594390489,47.53091836144456,0</coordinates></Point></Placemark><Placemark id="marker_1649868779393"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>Pollinators_WildCamTV?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/0,0,255/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.608972523191515,47.531306662423866,0</coordinates></Point></Placemark><Placemark id="marker_1649868591321"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>AM?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.6087830973152,47.531058919444035,0</coordinates></Point></Placemark><Placemark id="marker_1649868631114"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>AM?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.6101806117405335,47.53241138991625,0</coordinates></Point></Placemark><Placemark id="marker_1650455401199"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>Pollinators_WildCamTV?</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/0,0,255/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.606081310223173,47.53127093193529,0</coordinates></Point></Placemark><Placemark id="marker_1650464254597"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>(PAX?)</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,255,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.609449333593664,47.53176439858276,0</coordinates></Point></Placemark><Placemark id="marker_1650464013313"><ExtendedData><Data name="type"><value>marker</value></Data></ExtendedData><name>(PAX?)</name><description></description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,255,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.610064583398792,47.53258714485686,0</coordinates></Point></Placemark></Document></kml>
+﻿<kml
+	xmlns="http://www.opengis.net/kml/2.2"
+	xmlns:gx="http://www.google.com/kml/ext/2.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 https://developers.google.com/kml/schema/kml22gx.xsd">
+	<Document>
+		<name>Drawing</name>
+		<Placemark id="marker_1650464061086">
+			<ExtendedData>
+				<Data name="type">
+					<value>marker</value>
+				</Data>
+			</ExtendedData>
+			<name>PAX?</name>
+			<description></description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>https://api3.geo.admin.ch/color/255,255,0/marker-24@2x.png</href>
+						<gx:w>48</gx:w>
+						<gx:h>48</gx:h>
+					</Icon>
+					<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff0000ff</color>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<tessellate>1</tessellate>
+				<altitudeMode>clampToGround</altitudeMode>
+				<coordinates>7.6109717868253774,47.53286254400711,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="marker_1650464099430">
+			<ExtendedData>
+				<Data name="type">
+					<value>marker</value>
+				</Data>
+			</ExtendedData>
+			<name>PAX?</name>
+			<description></description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>https://api3.geo.admin.ch/color/255,255,0/marker-24@2x.png</href>
+						<gx:w>48</gx:w>
+						<gx:h>48</gx:h>
+					</Icon>
+					<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff0000ff</color>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<tessellate>1</tessellate>
+				<altitudeMode>clampToGround</altitudeMode>
+				<coordinates>7.611002682532909,47.533382790430444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="marker_1650464159453">
+			<ExtendedData>
+				<Data name="type">
+					<value>marker</value>
+				</Data>
+			</ExtendedData>
+			<name>PAX?</name>
+			<description></description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>https://api3.geo.admin.ch/color/255,255,0/marker-24@2x.png</href>
+						<gx:w>48</gx:w>
+						<gx:h>48</gx:h>
+					</Icon>
+					<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff0000ff</color>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<tessellate>1</tessellate>
+				<altitudeMode>clampToGround</altitudeMode>
+				<coordinates>7.610331097367751,47.533661216296544,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="marker_1650463963899">
+			<ExtendedData>
+				<Data name="type">
+					<value>marker</value>
+				</Data>
+			</ExtendedData>
+			<name>(PAX?)</name>
+			<description></description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>https://api3.geo.admin.ch/color/255,255,0/marker-24@2x.png</href>
+						<gx:w>48</gx:w>
+						<gx:h>48</gx:h>
+					</Icon>
+					<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff0000ff</color>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<tessellate>1</tessellate>
+				<altitudeMode>clampToGround</altitudeMode>
+				<coordinates>7.609711664200786,47.53367160706179,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="marker_1650464031118">
+			<ExtendedData>
+				<Data name="type">
+					<value>marker</value>
+				</Data>
+			</ExtendedData>
+			<name>(PAX?)</name>
+			<description></description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>https://api3.geo.admin.ch/color/255,255,0/marker-24@2x.png</href>
+						<gx:w>48</gx:w>
+						<gx:h>48</gx:h>
+					</Icon>
+					<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff0000ff</color>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<tessellate>1</tessellate>
+				<altitudeMode>clampToGround</altitudeMode>
+				<coordinates>7.608558594390489,47.53091836144456,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="marker_1650464254597">
+			<ExtendedData>
+				<Data name="type">
+					<value>marker</value>
+				</Data>
+			</ExtendedData>
+			<name>(PAX?)</name>
+			<description></description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>https://api3.geo.admin.ch/color/255,255,0/marker-24@2x.png</href>
+						<gx:w>48</gx:w>
+						<gx:h>48</gx:h>
+					</Icon>
+					<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff0000ff</color>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<tessellate>1</tessellate>
+				<altitudeMode>clampToGround</altitudeMode>
+				<coordinates>7.609449333593664,47.53176439858276,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="marker_1650464013313">
+			<ExtendedData>
+				<Data name="type">
+					<value>marker</value>
+				</Data>
+			</ExtendedData>
+			<name>(PAX?)</name>
+			<description></description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>https://api3.geo.admin.ch/color/255,255,0/marker-24@2x.png</href>
+						<gx:w>48</gx:w>
+						<gx:h>48</gx:h>
+					</Icon>
+					<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff0000ff</color>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<tessellate>1</tessellate>
+				<altitudeMode>clampToGround</altitudeMode>
+				<coordinates>7.610064583398792,47.53258714485686,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>
