@@ -58,34 +58,34 @@
 //		console.log("error: " + error);
 //	});
 
-    const fs2 = new L.KML();
-    fetch('./fs2.kml')
+    const fs2Power = new L.KML();
+    fetch('./fs2_power.kml')
     .then(res => res.text())
     .then(kmltext => {
         const parser = new DOMParser();
         const kml = parser.parseFromString(kmltext, 'text/xml');
-//        fs2.addKML(kml);
-//        map.addLayer(fs2);
+        fs2Power.addKML(kml);
+        map.addLayer(fs2Power);
     });
 
-    const fs2b = new L.KML();
-    fetch('./fs2b.kml')
+    const fs2LoraSensors = new L.KML();
+    fetch('./fs2_lora_sensors.kml')
     .then(res => res.text())
     .then(kmltext => {
         const parser = new DOMParser();
         const kml = parser.parseFromString(kmltext, 'text/xml');
-//        fs2b.addKML(kml);
-//        map.addLayer(fs2b);
+        fs2LoraSensors.addKML(kml);
+        map.addLayer(fs2LoraSensors);
     });
 
-    const fs2c = new L.KML();
-    fetch('./fs2c.kml')
+    const fs2PoECams = new L.KML();
+    fetch('./fs2_poe_cams.kml')
     .then(res => res.text())
     .then(kmltext => {
         const parser = new DOMParser();
         const kml = parser.parseFromString(kmltext, 'text/xml');
-        fs2c.addKML(kml);
-        map.addLayer(fs2c);
+        fs2PoECams.addKML(kml);
+        map.addLayer(fs2PoECams);
     });
 
 //    const transect = new L.KML();
@@ -123,9 +123,9 @@
 //		'Merian Perimeter': merian_layer,
 //		'Transect Walk': transect,
 
-//		'FS2 Plan A': fs2,
-//		'FS2 Plan B': fs2b,
-		'FS2 Haltestellen': fs2c,
+		'FS2 Strom & Wasser': fs2Power,
+		'FS2 PoE APs & Cams': fs2PoECams,
+		'FS2 LoRa Sensoren': fs2LoraSensors,
 	};
 
 	L.control.layers(basemaps, overlays).addTo(map);
@@ -134,8 +134,7 @@
 	
 	// add Merian GeoJson Layer to default view
 //	map.addLayer(merian_layer);
-	
-	map.setView([47.57681, 7.58652], 16);
+	map.setView([47.53369, 7.61051], 16);
 	
 	map.attributionControl.addAttribution("Maps by <a href='https://www.swisstopo.admin.ch/en/home.html'>swisstopo</a>");
 	// zoom to the layer
