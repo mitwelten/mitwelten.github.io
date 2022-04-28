@@ -78,6 +78,16 @@
         map.addLayer(fs2LoraSensors);
     });
 
+    const fs2OfflineSensors = new L.KML();
+    fetch('./fs2_offline_sensors.kml')
+    .then(res => res.text())
+    .then(kmltext => {
+        const parser = new DOMParser();
+        const kml = parser.parseFromString(kmltext, 'text/xml');
+        fs2OfflineSensors.addKML(kml);
+        map.addLayer(fs2OfflineSensors);
+    });
+
     const fs2PoECams = new L.KML();
     fetch('./fs2_poe_cams.kml')
     .then(res => res.text())
@@ -126,6 +136,7 @@
 		'FS2 Strom & Wasser': fs2Power,
 		'FS2 PoE APs & Cams': fs2PoECams,
 		'FS2 LoRa Sensoren': fs2LoraSensors,
+		'FS2 Offline Sensoren': fs2OfflineSensors,
 	};
 
 	L.control.layers(basemaps, overlays).addTo(map);
