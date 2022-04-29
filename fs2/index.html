@@ -14,7 +14,6 @@
 		.leaflet-control-layers{
 			font-size: 15px;
 		}
-
 	</style>
 </head>
 <body>
@@ -46,17 +45,6 @@
             maxZoom: 21,
 	  })
 	};
-
-	// klybeck layer as geoJson
-//	const klybeck_layer = new L.geoJson();
-//	fetch("https://geo.mitwelten.org/geoserver/cite/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=cite%3Ags_extent&maxFeatures=50&outputFormat=application%2Fjson")
-//	.then(function (response) {
-//		return response.json();
-//	}).then(function (data) {
-//		merian_layer.addData(data);
-//	}).catch(function (error) {
-//		console.log("error: " + error);
-//	});
 
     const fs2Power = new L.KML();
     fetch('./fs2_power.kml')
@@ -98,41 +86,18 @@
         map.addLayer(fs2PoECams);
     });
 
-//    const transect = new L.KML();
-//    fetch('./transect.kml')
-//    .then(res => res.text())
-//    .then(kmltext => {
-//        const parser = new DOMParser();
-//        const kml = parser.parseFromString(kmltext, 'text/xml');
-//        transect.addKML(kml);
-//        map.addLayer(transect);
-//    });
-
 	var overlays = {
 		'Strassennamen': L.tileLayer.wms(geoadminUrl, {
 				layers: 'ch.swisstopo.amtliches-strassenverzeichnis',
 				format: 'image/png',
 				transparent: true,
 	    }),
-		//'Amtliches Gebäudeadressverzeichnis': L.tileLayer.wms(geoadminUrl, {
-		//	layers: 'ch.swisstopo.amtliches-gebaeudeadressverzeichnis',
-		//	format: 'image/png',
-		//	transparent: true,
-	    //}),
-//	    'Dry grasslands (DGS)': L.tileLayer.wms(geoadminUrl, {
-//				layers: 'ch.bafu.bundesinventare-trockenwiesen_trockenweiden',
-//				format: 'image/png',
-//				transparent: true,
-//	    }),
-		//'Merian Perimeter': L.tileLayer.wms('https://geo.mitwelten.org/geoserver/wms', {
+		//'Perimeter': L.tileLayer.wms('https://geo.mitwelten.org/geoserver/wms', {
 		//	layers: 'cite:extent',
 		//	format: 'image/png',
 		//	transparent: true,
 	    //}),
-
-//		'Merian Perimeter': merian_layer,
-//		'Transect Walk': transect,
-
+		//'Perimeter': perimeter_layer,
 		'FS2 Strom & Wasser': fs2Power,
 		'FS2 PoE APs & Cams': fs2PoECams,
 		'FS2 LoRa Sensoren': fs2LoraSensors,
@@ -142,11 +107,11 @@
 	L.control.layers(basemaps, overlays).addTo(map);
 	var layer = basemaps["Swissimage"];
 	map.addLayer(layer);
-	
+
 	// add Merian GeoJson Layer to default view
-//	map.addLayer(merian_layer);
+    //map.addLayer(perimeter_layer);
 	map.setView([47.53369, 7.61051], 16);
-	
+
 	map.attributionControl.addAttribution("Maps by <a href='https://www.swisstopo.admin.ch/en/home.html'>swisstopo</a>");
 	// zoom to the layer
 	//map.fitBounds(merian_layer.getBounds());
