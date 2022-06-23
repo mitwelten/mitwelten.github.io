@@ -86,16 +86,6 @@
         map.addLayer(fs2PoECams);
     });
 
-    const fs2PoECams2 = new L.KML();
-    fetch('./fs2_poe_cams2.kml')
-    .then(res => res.text())
-    .then(kmltext => {
-        const parser = new DOMParser();
-        const kml = parser.parseFromString(kmltext, 'text/xml');
-        fs2PoECams2.addKML(kml);
-        map.addLayer(fs2PoECams2);
-    });
-
 	var overlays = {
 		'Strassennamen': L.tileLayer.wms(geoadminUrl, {
 				layers: 'ch.swisstopo.amtliches-strassenverzeichnis',
@@ -110,7 +100,6 @@
 		//'Perimeter': perimeter_layer,
 		'FS2 Strom & Wasser': fs2Power,
 		'FS2 PoE APs & Cams': fs2PoECams,
-		'FS2 PoE APs & Cams 2': fs2PoECams2,
 		'FS2 LoRa Sensoren': fs2LoraSensors,
 		'FS2 Offline Sensoren': fs2OfflineSensors,
 	};
