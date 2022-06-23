@@ -432,7 +432,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>PoE Access Point 4</name>
+      <name>PoE Access Point 4 (?)</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -773,7 +773,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>PoE Access Point (?)</name>
+      <name>PoE Access Point 6 (?)</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -800,7 +800,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>PoE Pi Cam 19 PoE Access Point (?)</name>
+      <name>PoE Pi Cam 19 (?)</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -827,7 +827,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>PoE Pi Cam 20 PoE Access Point (?)</name>
+      <name>PoE Pi Cam 20 (?)</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -854,7 +854,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>PoE Pi Cam 21 PoE Access Point (?)</name>
+      <name>PoE Pi Cam 21 (?)</name>
       <description></description>
       <Style>
         <IconStyle>
@@ -878,7 +878,7 @@
     <Placemark id="marker_1653913708310">
       <ExtendedData>
         <Data name="htmlpopup">
-          <value>&lt;div id="KML||https://public.geo.admin.ch/api/kml/files/DmHhQ5TBRrummhkU4WKZmQ#marker_1653913708310" class="htmlpopup-container"&gt;&lt;div class="htmlpopup-header"&gt;&lt;span&gt;Zeichnung &amp;nbsp;&lt;/span&gt;(PoE Pi Cam 22 PoE Access Point (?))&lt;/div&gt;&lt;div class="htmlpopup-content"&gt;&lt;/div&gt;&lt;/div&gt;</value>
+          <value>&lt;div id="KML||https://public.geo.admin.ch/api/kml/files/DmHhQ5TBRrummhkU4WKZmQ#marker_1653913708310" class="htmlpopup-container"&gt;&lt;div class="htmlpopup-header"&gt;&lt;span&gt;Zeichnung &amp;nbsp;&lt;/span&gt;(PoE Pi Cam 22 (?))&lt;/div&gt;&lt;div class="htmlpopup-content"&gt;&lt;/div&gt;&lt;/div&gt;</value>
         </Data>
         <Data name="layerId">
           <value>KML||https://public.geo.admin.ch/api/kml/files/DmHhQ5TBRrummhkU4WKZmQ</value>
@@ -887,7 +887,7 @@
           <value>marker</value>
         </Data>
       </ExtendedData>
-      <name>PoE Pi Cam 23 PoE Access Point (?)</name>
+      <name>PoE Pi Cam 23 (?)</name>
       <description></description>
       <Style>
         <IconStyle>
