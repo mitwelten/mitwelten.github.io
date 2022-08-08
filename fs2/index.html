@@ -86,6 +86,16 @@
         map.addLayer(fs2PoECams);
     });
 
+    const fs2Live = new L.KML();
+    fetch('https://data.mitwelten.org/geo/v1/kml/fs2/')
+    .then(res => res.text())
+    .then(kmltext => {
+        const parser = new DOMParser();
+        const kml = parser.parseFromString(kmltext, 'text/xml');
+        fs2Live.addKML(kml);
+        map.addLayer(fs2Live);
+    });
+
 	var overlays = {
 		'Strassennamen': L.tileLayer.wms(geoadminUrl, {
 				layers: 'ch.swisstopo.amtliches-strassenverzeichnis',
@@ -102,6 +112,7 @@
 		'FS2 PoE APs & Cams': fs2PoECams,
 		'FS2 LoRa Sensoren': fs2LoraSensors,
 		'FS2 Offline Sensoren': fs2OfflineSensors,
+		'FS2 Live': fs2Live,
 	};
 
 	L.control.layers(basemaps, overlays).addTo(map);
