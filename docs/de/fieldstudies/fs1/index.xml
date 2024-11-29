@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Merian Gardens on Mitwelten</title>
+    <link>https://andriwild.github.io/mitwelten-website/de/fieldstudies/fs1/</link>
+    <description>Recent content in Merian Gardens on Mitwelten</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <atom:link href="https://andriwild.github.io/mitwelten-website/de/fieldstudies/fs1/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
