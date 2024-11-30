@@ -1,0 +1,63 @@
+main:
+- name: ANSATZ
+  weight: 10
+  pageRef: /approach
+
+- name: IOT-TOOLKIT
+  weight: 20
+  pageRef: /iot
+
+- name: FELDSTUDIEN
+  weight: 30
+  identifier: fs 
+
+- name: FELDSTUDIEN
+  weight: 10
+  pageRef: /fieldstudies
+  parent: fs
+
+- name: FS 1
+  weight: 20
+  pageRef: /fieldstudies/fs1
+  parent: fs
+
+- name: FS 2
+  weight: 30
+  pageRef: /fieldstudies/fs2
+  parent: fs
+
+- name: FS 3
+  weight: 40
+  pageRef: /fieldstudies/fs3
+  parent: fs
+
+- name: INTERVENTIONEN
+  weight: 40
+  identifier: interventions
+
+- name: INTERVENTIONEN
+  weight: 10
+  pageRef: /interventions
+  parent: interventions
+
+- name: ÖKOSYSTEMSTUDIEN
+  weight: 20
+  pageRef: /interventions/ecosystem
+  parent: interventions
+
+- name: INTERSPEZIES-PLATTFORMEN
+  weight: 30
+  pageRef: /interventions/interspecies_platforms
+  parent: interventions
+
+- name: PARTIZIPATIVE INSTALLATIONEN
+  weight: 40
+  pageRef: /interventions/participatory_installations
+  parent: interventions
+
+- name: VERMITTLUNGSMEDIEN
+  weight: 50
+  pageRef: /interventions/communication_media
+  parent: interventions
+
+

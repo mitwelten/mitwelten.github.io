@@ -1,0 +1,56 @@
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.text-column {
+  text-align: justify;
+  column-count: 1;
+  column-gap: 48px;
+}
+
+figcaption > p {
+    font-size: 0.85rem;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+.number {
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgba(16, 73, 17, 0.3);
+  height: 105px;
+}
+
+.justify {
+    text-align: justify
+}
+
+.divider {
+  position: absolute;
+  left: 50%;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .divider {
+    display: none;
+  }
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .number {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-column {
+    column-count: 2;
+  }
+}

@@ -1,0 +1,15 @@
+<div class="col-12 col-sm-6 col-md-3 mb-4">
+  <div class="card h-100 shadow-sm border-0 overflow-hidden">
+    <div class="position-relative">
+      <a href="{{ .Get "url" }}">
+      <img src="{{ .Get "imgSrc" }}" class="card-img-top img-zoom" alt="{{ .Get "altText" | default "Card image" }}" style="height: 200px; object-fit: cover; transition: transform 0.3s ease; scale: 1.8;">
+      <div class="card-img-overlay d-flex align-items-end p-0">
+        <h5 class="card-title text-white w-100 m-0 p-2 d-flex align-items-end" style="background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.0)); height: 100px">
+          {{ .Get "title" }}
+        </h5>
+      </div>
+            </a>
+    </div>
+  </div>
+</div>
+
