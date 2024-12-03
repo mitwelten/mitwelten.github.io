@@ -124,7 +124,7 @@ title: Ecosystem
             </p>
             <h4 class="mt-3">Data Collection and Methods</h4>
             <p class="justify">
-                The main objective was to determine the number of anonymized individuals at specific locations at different times in order to study their possible influence on the ecosystems. Together with the nature conservation commission (Heide Kommission) and the park rangers, we designed a network of <a href="https://github.com/cyberman54/ESP32-Paxcounter" target="_blank">PAX counters</a> that was assembled and maintained by interdisciplinary teams. 
+                The main objective was to determine the number of anonymized individuals at specific locations at different times in order to study their possible influence on the ecosystems. Together with the nature conservation commission (Heide Kommission) and the park rangers, we designed a network of PAX counters (based on: 1. ESP32-Paxcounter, <a href="https://github.com/cyberman54/ESP32-Paxcounter" target="_blank">https://github.com/cyberman54/ESP32-Paxcounter</a>) that was assembled and maintained by interdisciplinary teams. 
             </p>
             <h4 class="mt-3">Objectives and Findings</h4>
             <p class="justify">

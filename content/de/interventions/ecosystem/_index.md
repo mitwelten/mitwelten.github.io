@@ -126,7 +126,7 @@ Weitere Informationen finden Sie in der Open-Access-Publikation <strong>„Vogel
             </p>
             <h4 class="mt-3">Datensammlung und Methodik</h4>
             <p class="justify">
-            Das Hauptziel bestand darin, die Anzahl anonymisierter Personen an bestimmten Orten zu unterschiedlichen Zeiten zu ermitteln, um ihren möglichen Einfluss auf die Ökosysteme zu untersuchen. Gemeinsam mit der Heide Kommission und den Parkrangern entwarfen wir ein Netzwerk von <a href="https://github.com/cyberman54/ESP32-Paxcounter" target="_blank">PAX-Zählern</a>, das von interdisziplinären Teams zusammengebaut, installiert und gewartet wurde. 
+            Das Hauptziel bestand darin, die Anzahl anonymisierter Personen an bestimmten Orten zu unterschiedlichen Zeiten zu ermitteln, um ihren möglichen Einfluss auf die Ökosysteme zu untersuchen. Gemeinsam mit der Heide Kommission und den Parkrangern entwarfen wir ein Netzwerk von PAX-Zählern (basierend auf: 1. ESP32-Paxcounter, <a href="https://github.com/cyberman54/ESP32-Paxcounter" target="_blank">https://github.com/cyberman54/ESP32-Paxcounter</a>), das von interdisziplinären Teams zusammengebaut, installiert und gewartet wurde. 
             </p>
             <h4 class="mt-3">Ergebnisse und Erkenntnisse</h4>
             <p class="justify">

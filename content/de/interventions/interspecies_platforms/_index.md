@@ -40,7 +40,7 @@ Stadtmöbel für den Aussenbereich sind in der Regel so konzipiert, dass sie den
             </p>
             <h4 class="mt-3">Konzepte</h4>
             <p class="justify">
-Abgesehen von der Begrünung mit Pflanzen - um eine natürlichere Atmosphäre zu schaffen, Schatten zu spenden und die Temperatur durch die Transpiration der Pflanzen zu senken - werden normalerweise kaum nicht-menschliche Lebewesen in den Entwurfsprozess für städtische Außenmöbel einbezogen. Hier kommen Interspecies Platforms ins Spiel, um den Bedürfnissen von Tieren und Pflanzen im urbanen Raum gerecht zu werden. Im Rahmen des Forschungsprojekts Mitwelten wurden Konzepte entwickelt und Unterrichtseinheiten an der Hochschule für Gestaltung und Kunst Basel (HGK) durchgeführt. Sie sollten die Studierenden für die Themen Biodiversität und zwischenartliches Zusammenleben sensibilisieren, ausloten, welche ökologischen Beiträge in den Disziplinen Kunst und Design geleistet werden können und wie das Thema für die Öffentlichkeit greifbar gemacht werden kann.
+Abgesehen von der Begrünung mit Pflanzen - um eine natürlichere Atmosphäre zu schaffen, Schatten zu spenden und die Temperatur durch die Transpiration der Pflanzen zu senken - werden normalerweise kaum nicht-menschliche Lebewesen in den Entwurfsprozess für städtische Außenmöbel einbezogen. Hier kommen Interspecies Platforms ins Spiel, um den Bedürfnissen von Tieren und Pflanzen im urbanen Raum gerecht zu werden. In Zusammenarbeit mit dem Bachelorstudiengang Innenarchitektur und Szenografie wurden Konzepte entwickelt und Unterrichtseinheiten an der Hochschule für Gestaltung und Kunst Basel (HGK) durchgeführt. Sie sollten die Studierenden für die Themen Biodiversität und interspezies Zusammenleben sensibilisieren, ausloten, welche ökologischen Beiträge in den Disziplinen Kunst und Design geleistet werden können und wie das Thema für die Öffentlichkeit greifbar gemacht werden kann.
             </p>
             <p class="justify mt-5">
 Eine genauere Beschreibung der Konzepte, Unterrichtseinheiten und umgesetzten Prototypen findet sich in der Publikation <strong>„Mitwelten. Medienökologische Gestaltungsstrategien zur Verbesserung der periurbanen Biodiversität“</strong>. (Erscheint demnächst!)
@@ -69,7 +69,7 @@ Eine genauere Beschreibung der Konzepte, Unterrichtseinheiten und umgesetzten Pr
 {{% blocks/section color="secondary" %}}
 
 <div class="mx-auto">
-    <h3 class="text-center mb-5">GEHACKTE INFRASTRUKTUREN</h3>
+    <h3 class="text-center mb-5">REKONFIGURIERTE INFRASTRUKTUREN</h3>
     <h4 class="text-center fst-italic mb-5">
         Wie können Gegenstände, Möbel und Infrastruktur umfunktioniert oder neu kontextualisiert werden, um die Biodiversität zu fördern?
     </h4>

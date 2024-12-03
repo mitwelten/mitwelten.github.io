@@ -67,7 +67,7 @@ title: Approach
                 <div class="number">4</div>
                 <h4>Conclusions</h4>
                 <p class="justify mb-0">
-                    From the findings of the evaluations we derived best practices and theoretically reflected upon the overall concepts and findings. Under the guiding principle of biodiversity, they integrate and link
+                    From the results of the evaluations, we derived best practices and the overall concepts were theoretically reflected. Under the guiding principle of biodiversity, they integrate and link:
                 </p>
                     <ul class="fw-light justify">
                         <li>content-related design aspects (e.g. scenario development, data mapping design, sensor-actuator composition, audio-visualization, contact zone design, gamification),</li>

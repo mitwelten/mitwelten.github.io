@@ -69,9 +69,9 @@ Um diesen umfassenden Anforderungen gerecht zu werden, sind neue Strategien erfo
                 <div class="number">4</div>
                 <h4>Schlussfolgerungen</h4>
                 <p class="justify mb-0">
-                    Aus den Ergebnissen der Evaluationen leiteten wir bewährte Verfahren ab und reflektierten theoretisch die Gesamtkonzepte und -ergebnisse. Unter dem Leitprinzip der Biodiversität integrieren und verkoppeln sie:
+                    Aus den Ergebnissen der Evaluierungen leiteten wir bewährte Verfahren ab und die Gesamtkonzepte wurden theoretisch reflektiert. Unter dem Leitprinzip der Biodiversität integrieren und verkoppeln sie:
                 </p>
-                    <ul class="fw-light justify">
+                <ul class="fw-light justify">
                         <li>inhaltlich-gestalterische Aspekte (z.B. Szenarienentwicklung, Data-Mapping-Design, Sensor-Aktor Komposition, Audiovisualisierung, Kontaktzonen-Design, Gamification),</li>
                         <li>Aspekten der technologischen Implementierung des IoT Toolkits (z.B. Machbarkeit, Datenauswertung, Ökosystemleistung)</li>
                         <li>und ökologisch-kultureller Integration und Wirksamkeit (z.B. Akzeptanz, Nachhaltigkeit, Anschlussfähigkeit, Attraktivität, Usability, Vermittlungsgehalt).</li>

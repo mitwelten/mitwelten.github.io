@@ -98,13 +98,13 @@ title: IOT-Toolkit
         </div>
         <div class="col-md-3 col-sm-6 mb-5 mb-lg-0 d-flex flex-column text-center flex-grow-1 d-flex align-items-center justify-content-center">
             <a class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-                href="https://explore.mitwelten.org/app/" 
+                href="https://explore.mitwelten.org" 
                 target="_blank">
                 <h4 class="mb-4">APPLIKATIONEN</h4>
             </a>
             {{< figure src="/images/applications/discover_explorer.png" 
                 text="Mitwelten Applications"
-                link="https://explore.mitwelten.org/app/"
+                link="https://explore.mitwelten.org"
                 target="_blank"
                 width="100%" >}}
                 <p class="fw-light" style="min-height: 100px">

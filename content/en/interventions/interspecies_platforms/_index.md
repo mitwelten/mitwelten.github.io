@@ -69,7 +69,7 @@ title: Interspecies Platforms
 {{% blocks/section color="secondary" %}}
 
 <div class="mx-auto">
-    <h3 class="text-center mb-5">HACKED INFRASTRUCTURES</h3>
+    <h3 class="text-center mb-5">RECONFIGURED INFRASTRUCTURES</h3>
     <h4 class="text-center fst-italic mb-5">
         How can objects, furniture and infrastructure be repurposed or recontextualized to help promote biodiversity?
     </h4>
