@@ -1,9 +1,8 @@
 # Mitwelten Website
+
 Hugo source code of the static part, to be hosted on www.mitwelten.org.
 
 Hosting is not yet automated, you'll have to preview on your Mac.
-
-Publishing requires copying files to [mitwelten.github.io](https://github.com/mitwelten/mitwelten.github.io).
 
 ## Install Hugo
 
@@ -52,7 +51,7 @@ $ cd ~/Desktop # (or wherever you keep mitwelten.github.io)
 
 ## Add new content
 
-To publish to www.mitwelten.org (assuming you're [set up to publish](#set-up-to-publish)), type
+To publish to www.mitwelten.org (assuming you're [set up to publish](#set-up-to-publish)).
 
 Before you add new content, don't forget to pull the latest changes from the repository.
 
@@ -60,7 +59,7 @@ Before you add new content, don't forget to pull the latest changes from the rep
 $ git pull
 ```
 
-Open the content folder and add new content in markdown format. The content is structured in two languages (de and en).
+Add new content. The content is structured in two languages (de and en).
 
 If you add new pages, you need to add them to the menu. The menu is defined in the config folder.
 
