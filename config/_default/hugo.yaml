@@ -1,4 +1,4 @@
-baseURL: "https://mitwelten.awild.ch/"
+baseURL: "https://mitwelten.ch/"
 #relativeURLs: true
 title: MITWELTEN
 publishDir: "docs"
@@ -164,9 +164,9 @@ params:
       enable: true
       # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
       'yes': >-
-        Glad to hear it! Please <a href="mailto:mitwelten.technik@fhnw.ch">tell us how we can improve</a>.
+        Glad to hear it! Please <a href="mailto:mitwelten@fhnw.ch">tell us how we can improve</a>.
       'no': >-
-        Sorry to hear that. Please <a href="mailto:mitwelten.technik@fhnw.ch">tell us how we can improve</a>.
+        Sorry to hear that. Please <a href="mailto:mitwelten@fhnw.ch">tell us how we can improve</a>.
 
     # Adds a reading time to the top of each doc.
     # If you want this feature, but occasionally need to remove the Reading time from a single page,
@@ -178,7 +178,7 @@ params:
     # End user relevant links. These will show up on left side of footer and in the community page if you have one.
     user:
       - name: Kontakt
-        url: mailto:mitwelten.technik@fhnw.ch
+        url: mailto:mitwelten@fhnw.ch
         icon: fa fa-envelope
         desc: → Fragen, Anregungen, Zusammenarbeit & Austausch per Email
       # - name: Twitter

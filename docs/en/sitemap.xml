@@ -2,184 +2,184 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mitwelten.awild.ch/approach/</loc>
+    <loc>https://mitwelten.ch/approach/</loc>
+    <lastmod>2024-12-03T08:26:18+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://mitwelten.ch/de/approach/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mitwelten.ch/approach/"
+                />
+  </url><url>
+    <loc>https://mitwelten.ch/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://mitwelten.ch/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mitwelten.ch/categories/"
+                />
+  </url><url>
+    <loc>https://mitwelten.ch/interventions/communication_media/</loc>
+    <lastmod>2024-12-03T08:26:18+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://mitwelten.ch/de/interventions/communication_media/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mitwelten.ch/interventions/communication_media/"
+                />
+  </url><url>
+    <loc>https://mitwelten.ch/fieldstudies/fs2/</loc>
     <lastmod>2024-11-30T10:26:17+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://mitwelten.awild.ch/de/approach/"
+                href="https://mitwelten.ch/de/fieldstudies/fs2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mitwelten.awild.ch/approach/"
+                href="https://mitwelten.ch/fieldstudies/fs2/"
                 />
   </url><url>
-    <loc>https://mitwelten.awild.ch/categories/</loc>
+    <loc>https://mitwelten.ch/interventions/ecosystem/</loc>
+    <lastmod>2024-12-03T08:26:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://mitwelten.awild.ch/de/categories/"
+                href="https://mitwelten.ch/de/interventions/ecosystem/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mitwelten.awild.ch/categories/"
+                href="https://mitwelten.ch/interventions/ecosystem/"
                 />
   </url><url>
-    <loc>https://mitwelten.awild.ch/interventions/communication_media/</loc>
+    <loc>https://mitwelten.ch/fieldstudies/</loc>
     <lastmod>2024-11-30T10:26:17+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://mitwelten.awild.ch/de/interventions/communication_media/"
+                href="https://mitwelten.ch/de/fieldstudies/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mitwelten.awild.ch/interventions/communication_media/"
+                href="https://mitwelten.ch/fieldstudies/"
                 />
   </url><url>
-    <loc>https://mitwelten.awild.ch/fieldstudies/fs2/</loc>
+    <loc>https://mitwelten.ch/interventions/interspecies_platforms/</loc>
+    <lastmod>2024-12-03T08:26:18+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://mitwelten.ch/de/interventions/interspecies_platforms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mitwelten.ch/interventions/interspecies_platforms/"
+                />
+  </url><url>
+    <loc>https://mitwelten.ch/interventions/</loc>
     <lastmod>2024-11-30T10:26:17+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://mitwelten.awild.ch/de/fieldstudies/fs2/"
+                href="https://mitwelten.ch/de/interventions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mitwelten.awild.ch/fieldstudies/fs2/"
+                href="https://mitwelten.ch/interventions/"
                 />
   </url><url>
-    <loc>https://mitwelten.awild.ch/interventions/ecosystem/</loc>
+    <loc>https://mitwelten.ch/iot/</loc>
     <lastmod>2024-11-30T10:26:17+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://mitwelten.awild.ch/de/interventions/ecosystem/"
+                href="https://mitwelten.ch/de/iot/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mitwelten.awild.ch/interventions/ecosystem/"
+                href="https://mitwelten.ch/iot/"
                 />
   </url><url>
-    <loc>https://mitwelten.awild.ch/fieldstudies/</loc>
+    <loc>https://mitwelten.ch/fieldstudies/fs1/</loc>
     <lastmod>2024-11-30T10:26:17+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://mitwelten.awild.ch/de/fieldstudies/"
+                href="https://mitwelten.ch/de/fieldstudies/fs1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mitwelten.awild.ch/fieldstudies/"
+                href="https://mitwelten.ch/fieldstudies/fs1/"
                 />
   </url><url>
-    <loc>https://mitwelten.awild.ch/interventions/interspecies_platforms/</loc>
+    <loc>https://mitwelten.ch/</loc>
+    <lastmod>2024-12-03T08:26:18+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://mitwelten.ch/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mitwelten.ch/"
+                />
+  </url><url>
+    <loc>https://mitwelten.ch/interventions/participatory_installations/</loc>
     <lastmod>2024-11-30T10:26:17+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://mitwelten.awild.ch/de/interventions/interspecies_platforms/"
+                href="https://mitwelten.ch/de/interventions/participatory_installations/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mitwelten.awild.ch/interventions/interspecies_platforms/"
+                href="https://mitwelten.ch/interventions/participatory_installations/"
                 />
   </url><url>
-    <loc>https://mitwelten.awild.ch/interventions/</loc>
+    <loc>https://mitwelten.ch/fieldstudies/fs3/</loc>
     <lastmod>2024-11-30T10:26:17+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://mitwelten.awild.ch/de/interventions/"
+                href="https://mitwelten.ch/de/fieldstudies/fs3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mitwelten.awild.ch/interventions/"
+                href="https://mitwelten.ch/fieldstudies/fs3/"
                 />
   </url><url>
-    <loc>https://mitwelten.awild.ch/iot/</loc>
-    <lastmod>2024-11-30T10:26:17+01:00</lastmod>
+    <loc>https://mitwelten.ch/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://mitwelten.awild.ch/de/iot/"
+                href="https://mitwelten.ch/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mitwelten.awild.ch/iot/"
-                />
-  </url><url>
-    <loc>https://mitwelten.awild.ch/fieldstudies/fs1/</loc>
-    <lastmod>2024-11-30T10:26:17+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://mitwelten.awild.ch/de/fieldstudies/fs1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mitwelten.awild.ch/fieldstudies/fs1/"
-                />
-  </url><url>
-    <loc>https://mitwelten.awild.ch/</loc>
-    <lastmod>2024-11-30T10:26:17+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://mitwelten.awild.ch/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mitwelten.awild.ch/"
-                />
-  </url><url>
-    <loc>https://mitwelten.awild.ch/interventions/participatory_installations/</loc>
-    <lastmod>2024-11-30T10:26:17+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://mitwelten.awild.ch/de/interventions/participatory_installations/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mitwelten.awild.ch/interventions/participatory_installations/"
-                />
-  </url><url>
-    <loc>https://mitwelten.awild.ch/fieldstudies/fs3/</loc>
-    <lastmod>2024-11-30T10:26:17+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://mitwelten.awild.ch/de/fieldstudies/fs3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mitwelten.awild.ch/fieldstudies/fs3/"
-                />
-  </url><url>
-    <loc>https://mitwelten.awild.ch/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://mitwelten.awild.ch/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mitwelten.awild.ch/tags/"
+                href="https://mitwelten.ch/tags/"
                 />
   </url>
 </urlset>

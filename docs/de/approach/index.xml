@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ansatz on Mitwelten</title>
-    <link>https://mitwelten.awild.ch/de/approach/</link>
+    <link>https://mitwelten.ch/de/approach/</link>
     <description>Recent content in Ansatz on Mitwelten</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <atom:link href="https://mitwelten.awild.ch/de/approach/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mitwelten.ch/de/approach/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
