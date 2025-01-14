@@ -100,7 +100,7 @@ linkTitle: MITWELTEN
                 Critical Media Lab | CML<br>
                 Freilager-Platz 1, 4002 Basel
             </p>
-            <p>Email: <a href="mailto:jan.torpus@fhnw.ch">jan.torpus@fhnw.ch</a></p>
+            <p>Email: <a href="mailto:mitwelten@fhnw.ch">mitwelten@fhnw.ch</a></p>
         </div>
     </div>
 </div>
